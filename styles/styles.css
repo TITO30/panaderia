@@ -1,0 +1,820 @@
+* {
+  margin: 0;
+  font-family: "Indie Flower", cursive;
+}
+
+.title {
+  background: #283d6d;
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-title {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 70px;
+  border-radius: 60%;
+  padding-top: 5px;
+}
+
+.nav-link {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.nav-items li a {
+  padding-right: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-items li img {
+  width: 35px;
+  height: 35px;
+}
+
+.item-link:hover {
+  text-decoration: underline;
+}
+
+.menu-hamb {
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 30px;
+  display: none;
+}
+
+/*Title--------------------------------------------------------------------------------*/
+
+.banner {
+  width: 100%;
+  height: 550px;
+  background: url("/assets/img/banner1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  background: black;
+  width: 350px;
+  color: white;
+  height: 200px;
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  opacity: 80%;
+  text-align: center;
+}
+
+.message h1 {
+  padding-bottom: 15px;
+}
+
+/*BAnner principal------------------------------------------------------------------*/
+
+.product-items {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.product-items h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 36px;
+}
+
+.items {
+  display: grid;
+  gap: 15px;
+  width: 100%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 10px, 20px;
+}
+
+.item:hover {
+  opacity: 70%;
+}
+
+.items a {
+  text-decoration: none;
+  color: black;
+}
+
+.items img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.item-description {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.item-description p {
+  padding-top: 10px;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.item-description h2 {
+  font-size: 28px;
+}
+
+.item-description a {
+  font-size: 18px;
+}
+
+/*cake flavors--------------------------------------------------*/
+.personal-cake {
+  width: 60%;
+  margin: auto;
+  height: 450px;
+  display: flex;
+}
+
+.description-custom {
+  width: 60%;
+  height: 80%;
+  margin: auto;
+  background: #ea899a;
+  justify-content: center;
+  color: black;
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image-custom {
+  width: 40%;
+  height: 450px;
+}
+
+.image-custom img {
+  width: 100%;
+  height: 100%;
+}
+
+.item-description a {
+  padding-top: 15px;
+  color: black;
+}
+
+.btn-form:hover {
+  color: white;
+}
+
+/*Personal cake-------------------------------------------------------------------*/
+
+.footer {
+  width: 100%;
+  height: 220px;
+  background: #283d6d;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+}
+
+.footer h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+.footer-items {
+  padding-top: 25px;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-links img {
+  width: 45px;
+  height: 45px;
+}
+
+/*Footer--------------------------------------------------------------------------*/
+
+.form-container {
+  width: 100%;
+  background-image: url("/assets/img/cake\ berries.jpg");
+  background-size: cover;
+  height: 900px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  height: 800px;
+  background-color: black;
+  opacity: 80%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.form h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.form-items {
+  justify-content: center;
+  align-items: center;
+  padding: auto, 25px, auto, 25px;
+}
+
+.form-items select {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-input input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cake-item {
+  text-align: center;
+}
+
+.cake-ornament {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.btn-submit {
+  background: #283d6d;
+  color: white;
+  height: 45px;
+  border-radius: 5%;
+  font-size: 18px;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+}
+
+/*Form---------------------------------------------------------------*/
+
+.about-banner {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-items {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img {
+  width: 50%;
+  height: 100%;
+}
+
+.baker {
+  width: 100%;
+  height: 500px;
+}
+
+.about-desc {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+}
+
+/*About------------------------------------------------------------*/
+
+.pov-items {
+  display: grid;
+  gap: 15px;
+  width: 60%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  padding: 10px, 20px;
+  text-align: center;
+}
+
+.pov-item {
+  padding: 20px 30px;
+}
+
+.pov-user {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/*POV User------------------------------------------------------------------------*/
+
+.map {
+  width: 70%;
+  margin: auto;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.map-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.map-direction {
+  width: 50%;
+  height: 250px;
+  justify-content: center;
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+
+  background: #ea899a;
+}
+
+.map-frame {
+  width: 50%;
+  height: 450px;
+}
+
+.map-frame iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/*Map------------------------------------------------------------------*/
+
+.table {
+  width: 90%;
+  height: 550px;
+  margin: auto;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.table-container h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-table {
+  display: flex;
+  gap: 10px;
+}
+
+.title-table img {
+  width: 35px;
+  height: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.table-ingre {
+  text-align: center;
+  width: 100%;
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.table-update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-update img {
+  width: 15px;
+  padding-right: 10px;
+  height: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+table td,
+table th {
+  padding: 8px;
+  text-align: center;
+  color: black;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #283d6d;
+  color: white;
+  text-align: center;
+}
+
+/*Table ---------------------------------------------------------------------------------*/
+
+.card {
+  width: 90%;
+  margin: auto;
+  height: 400px;
+}
+.card h1 {
+  text-align: center;
+}
+
+.card-item {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-desc {
+  background-color: #283d6d;
+  height: 350px;
+  width: 350px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  padding: 20px 30px;
+}
+
+@media (max-width: 810px) {
+  /*Pagina principal-------------------------*/
+
+  .menu-hamb {
+    display:block;
+  }
+  .nav-link ul {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 15;
+    opacity: .9;
+    left: 0;
+    background: #283d6d;
+    height: 100%;
+    transform: translateX(-500px);
+  }
+
+  .nav-link ul.nav-items.show {
+    transform: translateX(-20px);
+  }
+
+  .nav-link ul li {
+    padding: 20px;
+  }
+
+  .banner {
+    height: 400px;
+  }
+
+  .message {
+    width: 250px;
+    height: 150px;
+    font-size: 16px;
+  }
+
+  .product-items {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    display: block;
+    align-items: center;
+  }
+
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .items img {
+    border-radius: 50%;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    text-align: center;
+  }
+
+  .item-description p {
+    padding-top: 10px;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+  .item-description h2 {
+    font-size: 24px;
+  }
+
+  .item-description a {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .personal-cake {
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description-custom {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 300px;
+    background: #283d6d;
+  }
+
+  .footer h1 {
+    padding-top: 16px;
+  }
+
+  .footer-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .social-links img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .logo {
+    width: 90px;
+    height: 40px;
+  }
+
+  /*PAgina de acerca de nosotros----------------------------------*/
+  .about-banner {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-items {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .about-img {
+    width: auto;
+    height: 50%;
+  }
+
+  .baker {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-desc {
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+  }
+
+  .about-desc p h1 {
+    text-align: 14px;
+  }
+
+  .pov {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+
+  .pov-items {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pov-item {
+    padding: 0;
+  }
+
+  .pov-user {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .map {
+    width: 90%;
+    margin: 0;
+  }
+
+  .map-items {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .map-direction {
+    width: auto;
+    height: 50%;
+  }
+
+  .map-frame {
+    margin: 0;
+    width: 100%;
+    height: 50%;
+  }
+
+  .form-container {
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    height: auto;
+    opacity: 80%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    height: auto;
+    width: 90%;
+    margin: auto;
+  }
+
+  .card-item {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    gap: 30px;
+    display: grid;
+  }
+
+  .card-desc {
+    background-color: #283d6d;
+    height: auto;
+    width: auto;
+  }
+
+  .table {
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .table-container h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .title-table {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .table-ingre {
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+
+  .table-update img {
+    width: 10px;
+    padding-right: 10px;
+    height: 10px;
+  }
+
+  table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    overflow-x: scroll;
+  }
+}
